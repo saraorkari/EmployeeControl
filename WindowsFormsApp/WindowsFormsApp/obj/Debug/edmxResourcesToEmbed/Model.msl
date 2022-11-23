@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbWorkersModelStoreContainer" CdmEntityContainer="dbWorkersEntities">
+    <EntitySetMapping Name="Workers">
+      <EntityTypeMapping TypeName="dbWorkersModel.Workers">
+        <MappingFragment StoreEntitySet="Workers">
+          <ScalarProperty Name="Place" ColumnName="Place" />
+          <ScalarProperty Name="TimeExit" ColumnName="TimeExit" />
+          <ScalarProperty Name="TimeEnter" ColumnName="TimeEnter" />
+          <ScalarProperty Name="Salery" ColumnName="Salery" />
+          <ScalarProperty Name="NunHours" ColumnName="NunHours" />
+          <ScalarProperty Name="IsEnter" ColumnName="IsEnter" />
+          <ScalarProperty Name="Fingerprint" ColumnName="Fingerprint" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumWorker" ColumnName="NumWorker" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

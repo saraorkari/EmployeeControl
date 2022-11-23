@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dbWorkersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Workers">
+          <Key>
+            <PropertyRef Name="NumWorker" />
+          </Key>
+          <Property Name="NumWorker" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="nvarchar" MaxLength="9" />
+          <Property Name="Name" Type="nvarchar" MaxLength="20" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="10" />
+          <Property Name="Address" Type="nvarchar" MaxLength="50" />
+          <Property Name="Fingerprint" Type="int" />
+          <Property Name="IsEnter" Type="bit" />
+          <Property Name="NunHours" Type="float" />
+          <Property Name="Salery" Type="float" />
+          <Property Name="TimeEnter" Type="datetime" />
+          <Property Name="TimeExit" Type="datetime" />
+          <Property Name="Place" Type="int" />
+        </EntityType>
+        <EntityContainer Name="dbWorkersModelStoreContainer">
+          <EntitySet Name="Workers" EntityType="Self.Workers" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbWorkersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="dbWorkersEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Workers" EntityType="dbWorkersModel.Workers" />
+        </EntityContainer>
+        <EntityType Name="Workers">
+          <Key>
+            <PropertyRef Name="NumWorker" />
+          </Key>
+          <Property Name="NumWorker" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Fingerprint" Type="Int32" />
+          <Property Name="IsEnter" Type="Boolean" />
+          <Property Name="NunHours" Type="Double" />
+          <Property Name="Salery" Type="Double" />
+          <Property Name="TimeEnter" Type="DateTime" Precision="3" />
+          <Property Name="TimeExit" Type="DateTime" Precision="3" />
+          <Property Name="Place" Type="Int32" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbWorkersModelStoreContainer" CdmEntityContainer="dbWorkersEntities">
+          <EntitySetMapping Name="Workers">
+            <EntityTypeMapping TypeName="dbWorkersModel.Workers">
+              <MappingFragment StoreEntitySet="Workers">
+                <ScalarProperty Name="Place" ColumnName="Place" />
+                <ScalarProperty Name="TimeExit" ColumnName="TimeExit" />
+                <ScalarProperty Name="TimeEnter" ColumnName="TimeEnter" />
+                <ScalarProperty Name="Salery" ColumnName="Salery" />
+                <ScalarProperty Name="NunHours" ColumnName="NunHours" />
+                <ScalarProperty Name="IsEnter" ColumnName="IsEnter" />
+                <ScalarProperty Name="Fingerprint" ColumnName="Fingerprint" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NumWorker" ColumnName="NumWorker" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,28 @@
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\bin\Debug\EntityFramework.dll
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\bin\Debug\EntityFramework.xml
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\sara or\Active Code\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\bin\Debug\EntityFramework.dll
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\bin\Debug\EntityFramework.xml
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\sara or\פרויקטים\ניהול בקרת עובדים - חיישן טביעת אצבע\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
